@@ -17,18 +17,18 @@ const Update = () => {
   return (
     <div>
       <h1>Update User</h1>
-      <form onSubmit={handleupdate}>
+      <form onSubmit={handleupdate} class="labelupdate">
         <label>
-          ID:
-          <input type="text" name="id" />
+          ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;
+          <input type="text" name="id" placeholder="Enter Product ID" />
         </label>
         <label>
-          Name:
-          <input type="text" name="name" />
+          Name &nbsp; : &nbsp;
+          <input type="text" name="name" placeholder="Enter Name" />
         </label>
         <label>
-          Age:
-          <input type="text" name="age" />
+          Age &nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;
+          <input type="text" name="age" placeholder="Enter Age" />
         </label>
         <button type="submit">Update</button>
       </form>

@@ -1,0 +1,7 @@
+/* Register */
+.Name_R, .Age_R{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

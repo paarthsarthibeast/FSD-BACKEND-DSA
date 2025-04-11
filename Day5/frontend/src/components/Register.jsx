@@ -15,10 +15,14 @@ const Register = () => {
     <div>
       <h1>Register User</h1>
       <form onSubmit={handleRegister}>
-        <label>Name: </label>
-        <input type="text" name="name" />
-        <label>Age: </label>
-        <input type="text" name="age" />
+        <div class="Name_R">
+          <label>Name &nbsp; : </label>
+          <input type="text" name="name" placeholder="Enter Your Name" />
+        </div>
+        <div class="Age_R">
+          <label>Age &nbsp;&nbsp;&nbsp;&nbsp; : </label>
+          <input type="text" name="age" placeholder="Enter Your Age" />
+        </div>
         <button type="submit">Register</button>
       </form>
     </div>

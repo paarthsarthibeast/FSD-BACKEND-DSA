@@ -7,7 +7,6 @@ fs.writeFile("./data.txt", data, (err) => {
         console.error("Error writing file",err);
     }
     else{
-
         console.log("File written successfully");
     }
 })
