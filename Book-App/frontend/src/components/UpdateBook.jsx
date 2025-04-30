@@ -135,7 +135,7 @@ const UpdateBook = () => {
   const fetchBooks = async () => {
     try {
       setIsFetching(true);
-      const res = await axios.get("http://localhost:9000/books");
+      const res = await axios.get("https://book-app-z6gn.onrender.com/books");
       setBooks(res.data);
       setMessage({ text: "", type: "" });
     } catch (error) {
@@ -177,7 +177,7 @@ const UpdateBook = () => {
 
     try {
       await axios.put(
-        `http://localhost:9000/books/${selectedBookId}`,
+        `https://book-app-z6gn.onrender.com/books/${selectedBookId}`,
         formData
       );
       setMessage({ text: "Book updated successfully", type: "success" });

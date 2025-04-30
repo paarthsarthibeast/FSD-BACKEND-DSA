@@ -58,7 +58,7 @@ const ViewBook = () => {
     try {
       setIsLoading(true);
       // Note: Your backend URL was inconsistent - using the render.com URL like in other components
-      const res = await axios.get("http://localhost:9000/books");
+      const res = await axios.get("https://book-app-z6gn.onrender.com/books");
       setBooks(res.data);
       setError("");
     } catch (err) {

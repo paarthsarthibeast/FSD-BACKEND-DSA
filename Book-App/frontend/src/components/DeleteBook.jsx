@@ -71,7 +71,7 @@ const DeleteBook = () => {
   const fetchBooks = async () => {
     try {
       setIsLoading(true);
-      const res = await axios.get("http://localhost:9000/books");
+      const res = await axios.get("https://book-app-z6gn.onrender.com/books");
       setBooks(res.data);
       setMessage({ text: "", type: "" });
     } catch (error) {
@@ -90,7 +90,7 @@ const DeleteBook = () => {
 
     try {
       setIsDeleting(true);
-      await axios.delete(`http://localhost:9000/books/${id}`);
+      await axios.delete(`https://book-app-z6gn.onrender.com/books/${id}`);
       setMessage({
         text: `"${title}" was deleted successfully`,
         type: "success",

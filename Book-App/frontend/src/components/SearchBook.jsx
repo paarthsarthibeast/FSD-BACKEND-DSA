@@ -74,7 +74,9 @@ const SearchBook = () => {
       setIsLoading(true);
       setSearched(true);
       const res = await axios.get(
-        `http://localhost:9000/search?title=${encodeURIComponent(query)}`
+        `https://book-app-z6gn.onrender.com/search?title=${encodeURIComponent(
+          query
+        )}`
       );
       setBooks(res.data);
     } catch (error) {
