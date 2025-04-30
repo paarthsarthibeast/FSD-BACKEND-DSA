@@ -1,0 +1,70 @@
+/* Styling for the entire search container */  
+.search-container {  
+    background-color: #fff; /* White background for contrast */  
+    border-radius: 8px; /* Rounded corners */  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */  
+    padding: 2rem; /* Padding for spacing */  
+    max-width: 600px; /* Maximum width */  
+    margin: 0 auto; /* Centering the container */  
+  }  
+  
+  /* Title styling */  
+  h2 {  
+    color: #333; /* Dark gray color for the title */  
+    margin-bottom: 1rem; /* Space below the title */  
+  }  
+  
+  /* Input field styling */  
+  input[type="text"] {  
+    padding: 10px; /* Padding inside the input */  
+    width: calc(100% - 120px); /* Full width minus button width */  
+    border: 1px solid #ccc; /* Light gray border */  
+    border-radius: 4px; /* Rounded corners */  
+    margin-right: 10px; /* Space between input and button */  
+  }  
+  
+  /* Button styling */  
+  button {  
+    padding: 10px 15px; /* Padding inside the button */  
+    background-color: #007bff; /* Blue background */  
+    color: white; /* White text color */  
+    border: none; /* No border */  
+    border-radius: 4px; /* Rounded corners */  
+    cursor: pointer; /* Pointer cursor on hover */  
+    transition: background-color 0.3s; /* Transition effect on hover */  
+    width: 100px; /* Fixed width for consistency */  
+  }  
+  
+  /* Button hover effect */  
+  button:hover {  
+    background-color: #0056b3; /* Darker blue on hover */  
+  }  
+  
+  /* Unordered list styling */  
+  ul {  
+    list-style-type: none; /* No bullet points */  
+    padding: 0; /* No padding */  
+  }  
+  
+  /* List item styling */  
+  li {  
+    background-color: #f9f9f9; /* Light gray background */  
+    margin: 10px 0; /* Margin between list items */  
+    padding: 15px; /* Padding inside list items */  
+    border-radius: 4px; /* Rounded corners */  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */  
+  }  
+  
+  /* Image in list item styling */  
+  li img {  
+    max-width: 100%; /* Responsive image */  
+    height: auto; /* Maintain aspect ratio */  
+    display: block; /* Block display */  
+    margin-top: 10px; /* Space above image */  
+  }  
+  
+  /* No results message styling */  
+  .no-results {  
+    color: #666; /* Gray color for the no results text */  
+    font-style: italic; /* Italics for emphasis */  
+  }  
