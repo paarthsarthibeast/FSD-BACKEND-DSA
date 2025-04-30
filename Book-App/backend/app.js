@@ -12,7 +12,7 @@ mongoose
   .then(() => console.log("connected to mongodb"))
   .catch((err) => console.log("failed to connect"));  
 
-// Design Book Schema
+// Design Book Schemaa
 const BookSchema = new mongoose.Schema({
     title: String,
     author: String,
