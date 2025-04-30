@@ -18,7 +18,7 @@ const UpdateBook = () => {
 
   const fetchBooks = async () => {
     try {
-      const res = await axios.get("https://book-app-31ms.onrender.com/books");
+      const res = await axios.get("http://localhost:9000/books");
       setBooks(res.data);
     } catch (error) {
       console.error(error);
@@ -50,7 +50,7 @@ const UpdateBook = () => {
     e.preventDefault();
     try {
       await axios.put(
-        `https://book-app-31ms.onrender.com/books/${selectedBookId}`,
+        `http://localhost:9000/books/${selectedBookId}`,
         formData
       );
       alert("Book updated successfully");
